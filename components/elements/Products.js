@@ -5,7 +5,8 @@ export default function Products({ products }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex justify-around m-2">
+    // <div className="flex justify-around m-2">
+    <div className="grid grid-cols-4 gap-4 p-4">
       {products.map((product) => {
         return (
           <div
